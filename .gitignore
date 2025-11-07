@@ -1,0 +1,74 @@
+# Ambiente virtual Python
+venv/
+env/
+ENV/
+.venv/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec.bak
+*.manifest
+*.spec~
+
+# Arquivos de dados sensíveis
+.env
+*.env
+.env.local
+
+# Dados do sistema
+dados_financeiros.json
+dados_financeiros_avancado.json
+backup_json_*.json
+
+# Gráficos gerados
+*.png
+*.jpg
+*.jpeg
+
+# Relatórios gerados
+*.pdf
+*.xlsx
+*.csv
+
+# Backups
+backup/
+backups/
+
+# Documentação (conforme solicitado)
+docs/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+temp/
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Claude Code
+.claude/
